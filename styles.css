@@ -17,6 +17,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   background: var(--bg);
@@ -126,6 +130,7 @@ ul {
   border-radius: 28px;
   box-shadow: var(--shadow);
   backdrop-filter: blur(16px);
+  height: 100%;
 }
 
 .eyebrow {
@@ -229,6 +234,7 @@ ul {
 
 .section {
   padding: 60px 7vw;
+  scroll-margin-top: 90px;
 }
 
 .section-title {
@@ -273,11 +279,16 @@ ul {
   color: var(--muted);
 }
 
-.skills-grid,
+.skills-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
 .project-grid {
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .skill-card {
@@ -316,14 +327,17 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  height: fit-content;
 }
 
 .tag-group span {
+  display: inline-block;
+  height: fit-content;
   background: rgba(45, 226, 230, 0.15);
   color: #0d8a8f;
-  padding: 4px 10px;
+  padding: 6px 12px;
   border-radius: 999px;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 600;
 }
 
@@ -336,13 +350,17 @@ ul {
 .cta {
   background: linear-gradient(135deg, rgba(108, 77, 255, 0.12), rgba(255, 123, 209, 0.15));
   border-radius: 28px;
-  margin: 0 7vw 40px;
+  margin: 0 auto 40px;
   padding: 36px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 16px;
+  width: 100%;
 }
 
 footer {

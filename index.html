@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nguyễn Thị Hà | QA Portfolio</title>
+  <title>Nguyen Thi Ha | QA Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,14 +17,14 @@
   <div class="blur-orb orb-2"></div>
   <div class="blur-orb orb-3"></div>
 
-  <header class="hero">
+  <header class="hero" id="top">
     <nav class="nav">
-      <div class="brand">Hà QA Lab</div>
+      <div class="brand">Ha QA Lab</div>
       <div class="nav-actions">
-        <button class="chip active" data-filter="all">Tất cả</button>
-        <button class="chip" data-filter="project">Dự án</button>
-        <button class="chip" data-filter="experience">Kinh nghiệm</button>
-        <button class="chip" data-filter="skills">Kỹ năng</button>
+        <a class="chip active" href="#top">Home</a>
+        <a class="chip" href="#projects">Projects</a>
+        <a class="chip" href="#experience">Experience</a>
+        <a class="chip" href="#skills">Skills</a>
       </div>
     </nav>
 
@@ -32,44 +32,44 @@
       <div class="hero-card">
         <p class="eyebrow">Software Tester • Creative QA</p>
         <h1>
-          Nguyễn Thị Hà<br />
-          <span>Testing sáng tạo, tối ưu chất lượng.</span>
+          Nguyen Thi Ha<br />
+          <span>Creative testing, optimized quality.</span>
         </h1>
         <p class="intro">
-          Software Tester với hơn 3 năm kinh nghiệm kiểm thử thủ công web/mobile, mạnh về POD, order/fulfillment systems, API testing
-          (Postman), SQL validation và quản lý bug. Đang học và áp dụng Automation Testing với Playwright để tăng hiệu suất.
+          Software Tester with 3+ years of manual testing for web/mobile, strong in POD, order/fulfillment systems, API testing (Postman),
+          SQL validation, and bug management. Currently learning and applying Automation Testing with Playwright to boost efficiency.
         </p>
         <div class="hero-actions">
-          <a class="primary" href="mailto:hanguyen31.tt@gmail.com">Liên hệ ngay</a>
-          <button class="secondary" id="sparkBtn">Kích hoạt chế độ sáng tạo ✨</button>
+          <a class="primary" href="mailto:hanguyen31.tt@gmail.com">Contact now</a>
         </div>
       </div>
       <div class="hero-aside">
         <div class="glass-card">
-          <h2>Thông tin nhanh</h2>
+          <h2>Quick facts</h2>
           <ul>
-            <li><strong>Địa điểm:</strong> Yên Xá - Thanh Trì - Hà Nội</li>
-            <li><strong>Điện thoại:</strong> 0349.632.984</li>
-            <li><strong>Email:</strong> hanguyen31.tt@gmail.com</li>
-            <li><strong>Vai trò:</strong> Tester / Test Lead</li>
+            <li><strong>Location:</strong> Yen Xa - Thanh Tri - Hanoi</li>
+            <li><strong>Phone:</strong> <a href="tel:0349632984">0349.632.984</a></li>
+            <li><strong>Email:</strong> <a href="mailto:hanguyen31.tt@gmail.com">hanguyen31.tt@gmail.com</a></li>
+            <li><strong>Zalo:</strong> <a href="https://zalo.me/0349632984">0349.632.984</a></li>
+            <li><strong>Role:</strong> Tester / Test Lead</li>
           </ul>
           <div class="mini-stats">
             <div>
-              <h3>3+ năm</h3>
-              <p>Kinh nghiệm</p>
+              <h3>3+ yrs</h3>
+              <p>Experience</p>
             </div>
             <div>
               <h3>10+</h3>
-              <p>Dự án POD</p>
+              <p>POD projects</p>
             </div>
             <div>
               <h3>2+</h3>
-              <p>Lĩnh vực</p>
+              <p>Domains</p>
             </div>
           </div>
         </div>
         <div class="glass-card education">
-          <h2>Học vấn & Chứng chỉ</h2>
+          <h2>Education & Certifications</h2>
           <p><strong>Hanoi University of Science</strong></p>
           <p>Major in Computer & Information Science (2018 - 2022)</p>
           <p><strong>ISTQB Foundation Certification</strong> (12/2024)</p>
@@ -79,10 +79,10 @@
   </header>
 
   <main>
-    <section class="section" data-section="experience">
+    <section class="section" id="experience" data-section="experience">
       <div class="section-title">
-        <h2>Kinh nghiệm làm việc</h2>
-        <p>Chuyển hóa yêu cầu nghiệp vụ thành chiến lược kiểm thử hiệu quả.</p>
+        <h2>Work experience</h2>
+        <p>Turning business requirements into effective testing strategies.</p>
       </div>
       <div class="timeline">
         <article class="timeline-card">
@@ -90,13 +90,13 @@
             <h3>TIMIND LIMITED COMPANY</h3>
             <span>05/2024 - Nay</span>
           </div>
-          <p><strong>Vai trò:</strong> Tester</p>
+          <p><strong>Role:</strong> Tester</p>
           <ul>
-            <li>Kiểm thử nhiều hệ thống POD: đồng bộ đơn hàng, in ấn, fulfillment, shipping.</li>
-            <li>Bắt đầu viết automation tests cho luồng cơ bản.</li>
-            <li>Hướng dẫn và review test case.</li>
-            <li>Đảm bảo tiến độ và chất lượng dự án.</li>
-            <li>Hỗ trợ Product Owner đề xuất ý tưởng.</li>
+            <li>Tested multiple POD systems: order sync, printing, fulfillment, shipping.</li>
+            <li>Started writing automation tests for core flows.</li>
+            <li>Coached and reviewed test cases.</li>
+            <li>Ensured project schedule and quality.</li>
+            <li>Supported Product Owner with idea proposals.</li>
           </ul>
         </article>
         <article class="timeline-card">
@@ -104,16 +104,16 @@
             <h3>KIAISOFT VIET NAM CO., LTD</h3>
             <span>08/2022 - 04/2024</span>
           </div>
-          <p><strong>Vai trò:</strong> Tester</p>
+          <p><strong>Role:</strong> Tester</p>
           <ul>
-            <li>Thực thi test API bằng Postman.</li>
-            <li>Viết và kiểm tra truy vấn SQL.</li>
-            <li>Tham gia test web và mobile web.</li>
-            <li>Phân tích yêu cầu kỹ thuật từ khách hàng.</li>
-            <li>Viết test case theo tài liệu BA.</li>
-            <li>Quản lý bug và tiến độ task.</li>
-            <li>Đào tạo thành viên thực tập.</li>
-            <li>Handover và viết user manual.</li>
+            <li>Executed API tests using Postman.</li>
+            <li>Wrote and validated SQL queries.</li>
+            <li>Participated in web and mobile web testing.</li>
+            <li>Analyzed technical requirements from clients.</li>
+            <li>Wrote test cases based on BA documents.</li>
+            <li>Managed bugs and task progress.</li>
+            <li>Trained internship members.</li>
+            <li>Handover and wrote user manuals.</li>
           </ul>
         </article>
         <article class="timeline-card">
@@ -121,99 +121,99 @@
             <h3>KSE HIGH-TECH SOLUTIONS JSC</h3>
             <span>01/2022 - 05/2022</span>
           </div>
-          <p><strong>Vai trò:</strong> Intern Tester</p>
+          <p><strong>Role:</strong> Intern Tester</p>
           <ul>
-            <li>Kiểm thử ứng dụng web.</li>
-            <li>Hỗ trợ BA hoàn thiện tài liệu khảo sát.</li>
-            <li>Tạo test case và thực thi test.</li>
-            <li>Log bug và retest sau khi fix.</li>
+            <li>Tested web applications.</li>
+            <li>Assisted BA in finalizing survey documents.</li>
+            <li>Created test cases and executed tests.</li>
+            <li>Logged bugs and re-tested after fixes.</li>
           </ul>
         </article>
       </div>
     </section>
 
-    <section class="section" data-section="skills">
+    <section class="section" id="skills" data-section="skills">
       <div class="section-title">
-        <h2>Kỹ năng & thế mạnh</h2>
-        <p>Sẵn sàng kết hợp tư duy hệ thống và sự tỉ mỉ để bảo vệ chất lượng sản phẩm.</p>
+        <h2>Skills & strengths</h2>
+        <p>Ready to combine systems thinking and meticulousness to protect product quality.</p>
       </div>
       <div class="skills-grid">
-        <div class="skill-card">Mentoring intern testers & đào tạo nội bộ</div>
-        <div class="skill-card">Kiểm thử web & mobile app</div>
+        <div class="skill-card">Mentoring intern testers & internal training</div>
+        <div class="skill-card">Web & mobile app testing</div>
         <div class="skill-card">Database testing (MySQL, SQL)</div>
         <div class="skill-card">API testing (Postman)</div>
-        <div class="skill-card">Phân tích yêu cầu & viết tài liệu</div>
+        <div class="skill-card">Requirement analysis & documentation</div>
         <div class="skill-card">Print-on-Demand (POD) domain</div>
         <div class="skill-card">Automation Testing (Playwright)</div>
-        <div class="skill-card">Test planning, test report</div>
+        <div class="skill-card">Test planning, test reporting</div>
         <div class="skill-card">Bug management: JIRA, Backlog</div>
-        <div class="skill-card">Thích nghi nhanh, chịu áp lực tốt</div>
+        <div class="skill-card">Adapt quickly, handle pressure well</div>
       </div>
     </section>
 
-    <section class="section" data-section="project">
+    <section class="section" id="projects" data-section="project">
       <div class="section-title">
-        <h2>Dự án nổi bật</h2>
-        <p>Từ hệ thống POD đến ứng dụng cho thuê nhà, mỗi dự án là một sân chơi tối ưu chất lượng.</p>
+        <h2>Featured projects</h2>
+        <p>From POD systems to home rental apps, each project is a playground for optimizing quality.</p>
       </div>
       <div class="project-grid">
         <article class="project-card">
           <h3>Timind Hub <span>(10/2025 - Nay)</span></h3>
           <p class="project-desc">
-            Nền tảng quản lý đơn hàng tập trung cho Shopify & Amazon, tự động đồng bộ order, fulfillment và shipping.
+            Centralized order management platform for Shopify & Amazon, automatically syncing orders, fulfillment, and shipping.
           </p>
           <div class="tag-group">
             <span>Tester</span>
-            <span>10 thành viên (2 tester)</span>
+            <span>10 members (2 testers)</span>
             <span>Postman • DataGrip</span>
           </div>
           <ul>
-            <li>Hỗ trợ Product Owner định hình sản phẩm.</li>
+            <li>Supported Product Owner in product shaping.</li>
             <li>Test planning, work division, QA monitoring.</li>
-            <li>Viết test case, review và thực thi test.</li>
-            <li>Đồng bộ đơn hàng từ Shopify & Amazon.</li>
-            <li>Luồng trạng thái: Open → Mapping Done → In Fulfillment → Shipping → Delivered.</li>
-            <li>Mapping doanh thu & item theo order.</li>
-            <li>API integration giữa nội bộ & supplier.</li>
-            <li>Error handling & data consistency xuyên hệ thống.</li>
+            <li>Wrote test cases, reviewed and executed tests.</li>
+            <li>Order sync from Shopify & Amazon.</li>
+            <li>Status flow: Open → Mapping Done → In Fulfillment → Shipping → Delivered.</li>
+            <li>Mapped revenue & items by order.</li>
+            <li>API integration between internal systems and suppliers.</li>
+            <li>Error handling & data consistency across systems.</li>
           </ul>
         </article>
 
         <article class="project-card">
           <h3>Fulfillment (Web) <span>(09/2024 - Nay)</span></h3>
           <p class="project-desc">
-            OnePrint Fulfillment kết nối seller và admin để bán và xử lý POD không cần quản lý tồn kho.
+            OnePrint Fulfillment connects sellers and admins to sell and process POD without inventory management.
           </p>
           <div class="tag-group">
             <span>Tester</span>
-            <span>10 thành viên (2 tester)</span>
+            <span>10 members (2 testers)</span>
             <span>Postman • DataGrip • VS Code</span>
           </div>
           <ul>
-            <li>Tạo & duy trì tài liệu API cho người dùng.</li>
-            <li>Triển khai basic automation testing flows.</li>
+            <li>Created & maintained API documentation for users.</li>
+            <li>Implemented basic automation testing flows.</li>
             <li>Test planning, project monitoring, QA assurance.</li>
-            <li>Review test case, test execution.</li>
+            <li>Review test cases, execute tests.</li>
             <li>Seller-side order creation & payment workflow.</li>
-            <li>Order sync giữa Seller và Admin systems.</li>
-            <li>Admin review & phân phối supplier.</li>
+            <li>Order sync between Seller and Admin systems.</li>
+            <li>Admin review & supplier assignment.</li>
             <li>Tracking fulfillment & shipping status.</li>
-            <li>API cho order creation, payment confirmation, supplier distribution.</li>
+            <li>APIs for order creation, payment confirmation, supplier distribution.</li>
           </ul>
         </article>
 
         <article class="project-card">
           <h3>Factory Operation (Web) <span>(05/2024 - Nay)</span></h3>
           <p class="project-desc">
-            POD production management system: xử lý đơn, hỗ trợ in ấn, giao hàng và tối ưu chi phí.
+            POD production management system: process orders, support printing, delivery, and cost optimization.
           </p>
           <div class="tag-group">
             <span>Tester</span>
-            <span>10 thành viên (2 tester)</span>
+            <span>10 members (2 testers)</span>
           </div>
           <ul>
             <li>Test planning, QA monitoring, test execution.</li>
-            <li>Viết SQL query và test database (DataGrip).</li>
+            <li>Write SQL queries and test database (DataGrip).</li>
             <li>Workflow testing: Print Barcode → Print → Print Design → Confirm Printed → Quality Check → Packaging.</li>
             <li>Print queue & barcode generation.</li>
             <li>Order status: Open, Processing, Shipping, Completed, Cancelled.</li>
@@ -224,71 +224,73 @@
         <article class="project-card">
           <h3>Orala (Website, App) <span>(10/2023 - 04/2024)</span></h3>
           <p class="project-desc">
-            Hệ thống tìm kiếm nhà thuê gần trường học, ga tàu; gợi ý ngân hàng phù hợp khi trả góp.
+            House rental search system near schools and stations; suggests suitable banks for installment payments.
           </p>
           <div class="tag-group">
             <span>Test Lead, Tester</span>
-            <span>10 thành viên (3 tester)</span>
+            <span>10 members (3 testers)</span>
             <span>Postman • Figma • Navicat</span>
           </div>
           <ul>
             <li>Test planning, work division.</li>
-            <li>Project monitoring và quality assurance.</li>
+            <li>Project monitoring and quality assurance.</li>
             <li>Review test case, test execution.</li>
-            <li>Mentor intern về testing fundamentals & project workflow.</li>
+            <li>Mentored interns on testing fundamentals & project workflow.</li>
           </ul>
         </article>
 
         <article class="project-card">
           <h3>Property Home Rental Management System (Website) <span>(09/2022 - 04/2024)</span></h3>
           <p class="project-desc">
-            Quản lý thiết bị, tài sản, cư dân; hỗ trợ ban quản lý và cư dân giao tiếp qua hệ thống.
+            Manage devices, assets, residents; supports management and resident communication through the system.
           </p>
           <div class="tag-group">
             <span>Tester</span>
-            <span>15 thành viên (3 tester)</span>
+            <span>15 members (3 testers)</span>
             <span>VS Code • DBeaver</span>
           </div>
           <ul>
             <li>Test planning, work division.</li>
-            <li>Project monitoring và quality assurance.</li>
+            <li>Project monitoring and quality assurance.</li>
             <li>Review test case, test execution.</li>
-            <li>Viết SQL queries và test database.</li>
+            <li>Write SQL queries and test database.</li>
           </ul>
         </article>
 
         <article class="project-card">
           <h3>Shinline (Web, App) <span>(09/2022 - 12/2023)</span></h3>
           <p class="project-desc">
-            Kết nối cửa hàng với khách hàng: chat, lịch hẹn, auto message, quản lý lịch.
+            Connects stores with customers: chat, appointments, auto messages, schedule management.
           </p>
           <div class="tag-group">
             <span>Tester</span>
-            <span>12 thành viên (1 tester)</span>
+            <span>12 members (1 tester)</span>
           </div>
           <ul>
-            <li>Làm rõ & xác nhận spec với team.</li>
-            <li>Viết test case, test web/app.</li>
-            <li>Log bug và retest sau khi fix.</li>
-            <li>Promote tiến độ dự án, đảm bảo chất lượng.</li>
-            <li>Test API bằng Postman & test database.</li>
-            <li>Báo cáo tiến độ hàng ngày, handover & user guide.</li>
+            <li>Clarified and confirmed specs with the team.</li>
+            <li>Wrote test cases, tested web/app.</li>
+            <li>Logged bugs and re-tested after fixes.</li>
+            <li>Promoted project progress and ensured quality.</li>
+            <li>Tested APIs with Postman and tested database.</li>
+            <li>Daily progress reports, handover, and user guide.</li>
           </ul>
         </article>
       </div>
     </section>
 
-    <section class="section cta">
+    <section class="section" id="contact">
+      <div class="cta">
       <div>
-        <h2>Muốn build hệ thống QA tối ưu hơn?</h2>
-        <p>Hãy kết nối với Hà để cùng tạo ra quy trình kiểm thử vừa chuẩn vừa sáng tạo.</p>
+        <h2>Want to build an optimized QA system?</h2>
+        <p>Connect with Hà to build a QA process that’s both rigorous and creative.</p>
       </div>
       <a class="primary" href="mailto:hanguyen31.tt@gmail.com">Let’s collaborate</a>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Nguyen Thi Ha. Crafted with bright vibes ✨</p>
+    <p>© 2025 Nguyen Thi Ha ✨</p>
   </footer>
 
   <script src="script.js"></script>
